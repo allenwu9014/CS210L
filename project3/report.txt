@@ -1,0 +1,32 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<6>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<3>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Autocomplete Term): ...
+  The issue for me is understanding the function, compare(), and how to use it and how it works, and the connection between the sort() and compareTo();
+   Problem 2 (Binary Search Deluxe): ...
+ The issues about the problem is when the program finds the mid key by Binary Search, how to look for other same keys, which means, because of the sorted array, all the keys are not dispersive, so the mid key could be the first, mid or last poistion of this "key group". Thus, I need to find the first key and last of the group, i and j, to determine the number of all the key.
+   Problem 3 (Autocomplete): ...
+   I prefer that my program works, but it is not the best, especially the part of determining how many matched keys there are. I used the codes in the main method of problem2. However, I think there must be a better solution for that, which does not mean to the method of looking for the first and last keys, but in the firstIndexOf() and lastIndexOf() of BinarySearchDeluxe, I use the loops there. When the numbers of a key is too many, the runtime will be a problem. 
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I enjoy to solve problems and find better solutions to figure it out. I consider the real point is programming a project by myself is rather than thousand I read and learn from the lecture. 
