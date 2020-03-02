@@ -1,0 +1,29 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<20>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<4>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Brute-force Implementation): This part is not hard. Creat a Red-Black Tree and follow the hints.
+
+   Problem 2 (2d-tree Implementation): Problem2 is so hard for me and took me more than 3 days to catch it. Typically, there were one main issue for me. How to deal with the nearest search. At first, I was not really understanding the statement "Nearest neighbor search" on the pdf of project5. After drawing the structure of Tree, I realized that if I want to find the several nearest points near the query point, then just recutively search its neighbor and neighbor's neighbor and so on in the tree. The hint in the nearest() part do not mention that not only x = null or the size of pq is greater than k should be considered in the condition, but also pq.max().distanceSquaredTo(p) should be smaller than x.rect.distanceSquaredTo(p), which if not, the 5 output of nearest points would be not correct.
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...               ...          ...
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+   Problem 2 is the most difficult assignments I took. If there is not any hint I do not believe I can finish that.  Compared with CS310 whose hard part is to understand principle of algorithm like DegreeOfSeparationBFS and DijkstraTieSP, CS210 focus on programming step by step mostly that is my weak part. 
