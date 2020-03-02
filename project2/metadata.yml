@@ -1,0 +1,12 @@
+---
+:id: 21930706
+:submitters:
+- :name: Wenyue Wu
+  :email: wenyue.wu001@umb.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2019-10-09 20:37:17.149332000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2019-10-09 13:37:17.149332000 Z
+:status: processed
+:score: 141.0
